@@ -99,3 +99,79 @@ else
 {
     console.log("acima de 10.000 é cobrado 15%")
 }
+
+//9
+const hora = 12
+
+if (hora >= 5 && hora < 11 )
+{
+    console.log("Bom dia")
+}
+else if (hora >= 12 && hora < 17)
+{
+    console.log("Boa tarde")
+}
+else 
+{
+    console.log("Boa Noite")
+}
+
+//10
+
+let idade1 = 15;
+let autoriza = Boolean;
+autoriza = true;
+
+if (idade1 >= 18)
+{
+    console.log("Permitido a entrada")
+}
+else if (idade1 <= 18 && autoriza == true )
+{
+    console.log("Entrada permitida com autorização")
+}
+else
+{
+    console.log("Entrada proibida")
+}
+
+//11
+ for (num1 = 0; num1 <= 50; num1+=3  )
+ console.log(num1);
+
+ //12
+ let soma = 0;
+ for (num2 = 0; num2 <= 100; num2+=2)
+ 
+ console.log(soma += num2);
+ 
+ //13
+ for (num3 = 20; num3 >= 5; num3--)
+ console.log(num3);
+
+ //14
+ let tabuada = 9;
+ for (num4 = 0; num4 <= 10; num4++)
+ console.log(`${num4} * ${tabuada} = ${num4 * tabuada}`)
+
+ //15
+
+ let a = 0;
+ let b = 1;
+ for (let i = 0; i <= 10; i++)
+ {
+    console.log(a);
+    [a, b] = [b, a+b]
+ }
+
+//16
+
+const nomes = ["Maria", "José", "João", "Izabel"];
+console.log(nomes)
+for (let i = 1; i < nomes.length; i++)
+console.log(i, '-', nomes[i]);
+
+//17
+let numarray = [];
+for (e = 0; e <= 100; e++)
+console.log([e])
